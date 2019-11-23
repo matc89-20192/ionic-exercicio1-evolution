@@ -8,8 +8,16 @@ import { IonicPage, NavController } from 'ionic-angular';
 })
 export class Page1 {
 
+  texto: string = "Mundo";
+
+  inicio: string = "";
+
   constructor(public navCtrl: NavController) {
 
+  }
+
+  changeName() {
+    this.texto = this.inicio;
   }
 
 }
